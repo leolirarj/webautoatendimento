@@ -9,12 +9,12 @@ import { TryAgainPageRoutingModule } from './try-again-routing.module';
 import { TryAgainPage } from './try-again.page';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    TryAgainPageRoutingModule
-  ],
-  declarations: [TryAgainPage]
+    imports: [
+        CommonModule,
+        FormsModule,
+        IonicModule,
+        TryAgainPageRoutingModule
+    ],
+    declarations: [TryAgainPage]
 })
 export class TryAgainPageModule {}

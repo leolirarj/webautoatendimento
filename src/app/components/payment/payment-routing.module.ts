@@ -4,17 +4,17 @@ import { PaymentPage } from './payment.page';
 
 
 const routes: Routes = [
-  {
-    path: '',
-    component: PaymentPage,
-  },
-  
+    {
+        path: '',
+        component: PaymentPage,
+    },
+
 
 
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+    imports: [RouterModule.forChild(routes)],
+    exports: [RouterModule]
 })
 export class PaymentRoutingModule {}

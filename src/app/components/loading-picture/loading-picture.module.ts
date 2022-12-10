@@ -9,12 +9,12 @@ import { LoadingPicturePageRoutingModule } from './loading-picture-routing.modul
 import { LoadingPicturePage } from './loading-picture.page';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    LoadingPicturePageRoutingModule
-  ],
-  declarations: [LoadingPicturePage]
+    imports: [
+        CommonModule,
+        FormsModule,
+        IonicModule,
+        LoadingPicturePageRoutingModule
+    ],
+    declarations: [LoadingPicturePage]
 })
 export class LoadingPicturePageModule {}

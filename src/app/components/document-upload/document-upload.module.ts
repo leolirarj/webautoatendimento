@@ -10,12 +10,12 @@ import { DocumentUploadPage } from './document-upload.page';
 
 
 @NgModule({
-  declarations: [DocumentUploadPage],
-  imports: [
-    CommonModule,
-    IonicModule,
-    FormsModule,
-    DocumentUploadRoutingModule
-  ]
+    declarations: [DocumentUploadPage],
+    imports: [
+        CommonModule,
+        IonicModule,
+        FormsModule,
+        DocumentUploadRoutingModule
+    ]
 })
 export class DocumentUploadModule { }

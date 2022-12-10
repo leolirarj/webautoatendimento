@@ -9,12 +9,12 @@ import { ScheduleShippingPageRoutingModule } from './schedule-shipping-routing.m
 import { ScheduleShippingPage } from './schedule-shipping.page';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    ScheduleShippingPageRoutingModule
-  ],
-  declarations: [ScheduleShippingPage]
+    imports: [
+        CommonModule,
+        FormsModule,
+        IonicModule,
+        ScheduleShippingPageRoutingModule
+    ],
+    declarations: [ScheduleShippingPage]
 })
 export class ScheduleShippingPageModule {}

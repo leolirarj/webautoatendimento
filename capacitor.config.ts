@@ -1,9 +1,9 @@
 import { CapacitorConfig } from '@capacitor/cli';
 const config: CapacitorConfig = {
-  appId: "io.ionic.demo.pg.cap.ng",
-  appName: "Photo Gallery Cap Ng",
+  appId: "br.com.webzi.atendimentomobile",
+  appName: "Atendimento Mobile",
   bundledWebRuntime: false,
-  npmClient: "npm",
+  //npmClient: "npm",
   webDir: "www",
 };
 

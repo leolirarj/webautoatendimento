@@ -9,12 +9,12 @@ import { FacePicturePageRoutingModule } from './face-picture-routing.module';
 import { FacePicturePage } from './face-picture.page';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    FacePicturePageRoutingModule
-  ],
-  declarations: [FacePicturePage]
+    imports: [
+        CommonModule,
+        FormsModule,
+        IonicModule,
+        FacePicturePageRoutingModule
+    ],
+    declarations: [FacePicturePage]
 })
 export class FacePicturePageModule {}

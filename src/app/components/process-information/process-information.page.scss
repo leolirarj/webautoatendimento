@@ -18,7 +18,7 @@ h2 {
   margin-left: 16px;
   margin-right: 16px;
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
   h3 {
     color: rgb(22, 127, 247);
     font-family: $font-family;
@@ -104,7 +104,7 @@ ion-card-content:nth-child(4){
         --background-checked: #1cf340;
         margin: 0%;
         display: flex;
-        justify-content: end;
+        justify-content: flex-end;
         align-items: flex-end;
         margin-bottom: 10px;
         width: 28px;

@@ -4,21 +4,21 @@ import { IonicModule } from '@ionic/angular';
 import { TryAgainPage } from './try-again.page';
 
 describe('TryAgainPage', () => {
-  let component: TryAgainPage;
-  let fixture: ComponentFixture<TryAgainPage>;
+    let component: TryAgainPage;
+    let fixture: ComponentFixture<TryAgainPage>;
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      declarations: [ TryAgainPage ],
-      imports: [IonicModule.forRoot()]
-    }).compileComponents();
+    beforeEach(waitForAsync(() => {
+        TestBed.configureTestingModule({
+            declarations: [ TryAgainPage ],
+            imports: [IonicModule.forRoot()]
+        }).compileComponents();
 
-    fixture = TestBed.createComponent(TryAgainPage);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  }));
+        fixture = TestBed.createComponent(TryAgainPage);
+        component = fixture.componentInstance;
+        fixture.detectChanges();
+    }));
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
+    it('should create', () => {
+        expect(component).toBeTruthy();
+    });
 });

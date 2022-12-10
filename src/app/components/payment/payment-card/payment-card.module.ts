@@ -8,12 +8,12 @@ import { PaymentCardRoutingModule } from './payment-card-routing.module';
 
 
 @NgModule({
-  declarations: [PaymentCardPage],
-  imports: [
-    CommonModule,
-    PaymentCardRoutingModule,
-    IonicModule,
-    FormsModule,
-  ]
+    declarations: [PaymentCardPage],
+    imports: [
+        CommonModule,
+        PaymentCardRoutingModule,
+        IonicModule,
+        FormsModule,
+    ]
 })
 export class PaymentCardModule { }

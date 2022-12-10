@@ -9,12 +9,12 @@ import { ProcessInformationsRoutingModule } from './process-informations-routing
 
 
 @NgModule({
-  declarations: [ProcessInformationsPage],
-  imports: [
-    CommonModule,
-    IonicModule,
-    FormsModule,
-    ProcessInformationsRoutingModule
-  ]
+    declarations: [ProcessInformationsPage],
+    imports: [
+        CommonModule,
+        IonicModule,
+        FormsModule,
+        ProcessInformationsRoutingModule
+    ]
 })
 export class ProcessInformationsModule { }

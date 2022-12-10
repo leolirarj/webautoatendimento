@@ -3,19 +3,19 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomePage } from './home.page';
 
 const routes: Routes = [
-  {
-    path: 'home',
-    component: HomePage,
-  },
-  {
-    path: '',
-    redirectTo: '/home',
-    pathMatch: 'full'
-  }
+    {
+        path: 'home',
+        component: HomePage,
+    },
+    {
+        path: '',
+        redirectTo: '/home',
+        pathMatch: 'full'
+    }
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+    imports: [RouterModule.forChild(routes)],
+    exports: [RouterModule]
 })
 export class HomeRoutingModule {}

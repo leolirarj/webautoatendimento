@@ -9,12 +9,12 @@ import { FacialRecognitionPage } from './facial-recognition.page';
 
 
 @NgModule({
-  declarations: [FacialRecognitionPage],
-  imports: [
-    CommonModule,
-    IonicModule,
-    FormsModule,
-    FacialRecognitionRoutingModule
-  ]
+    declarations: [FacialRecognitionPage],
+    imports: [
+        CommonModule,
+        IonicModule,
+        FormsModule,
+        FacialRecognitionRoutingModule
+    ]
 })
 export class FacialRecognitionModule { }

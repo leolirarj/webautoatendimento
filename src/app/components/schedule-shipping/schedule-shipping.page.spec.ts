@@ -4,21 +4,21 @@ import { IonicModule } from '@ionic/angular';
 import { ScheduleShippingPage } from './schedule-shipping.page';
 
 describe('ScheduleShippingPage', () => {
-  let component: ScheduleShippingPage;
-  let fixture: ComponentFixture<ScheduleShippingPage>;
+    let component: ScheduleShippingPage;
+    let fixture: ComponentFixture<ScheduleShippingPage>;
 
-  beforeEach(waitForAsync(() => {
-    TestBed.configureTestingModule({
-      declarations: [ ScheduleShippingPage ],
-      imports: [IonicModule.forRoot()]
-    }).compileComponents();
+    beforeEach(waitForAsync(() => {
+        TestBed.configureTestingModule({
+            declarations: [ ScheduleShippingPage ],
+            imports: [IonicModule.forRoot()]
+        }).compileComponents();
 
-    fixture = TestBed.createComponent(ScheduleShippingPage);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
-  }));
+        fixture = TestBed.createComponent(ScheduleShippingPage);
+        component = fixture.componentInstance;
+        fixture.detectChanges();
+    }));
 
-  it('should create', () => {
-    expect(component).toBeTruthy();
-  });
+    it('should create', () => {
+        expect(component).toBeTruthy();
+    });
 });

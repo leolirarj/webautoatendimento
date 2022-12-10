@@ -9,12 +9,12 @@ import { PaymentConfirmedPageRoutingModule } from './payment-confirmed-routing.m
 import { PaymentConfirmedPage } from './payment-confirmed.page';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    PaymentConfirmedPageRoutingModule
-  ],
-  declarations: [PaymentConfirmedPage]
+    imports: [
+        CommonModule,
+        FormsModule,
+        IonicModule,
+        PaymentConfirmedPageRoutingModule
+    ],
+    declarations: [PaymentConfirmedPage]
 })
 export class PaymentConfirmedPageModule {}

@@ -8,13 +8,13 @@ import { PixRoutingModule } from './pix-routing.module';
 
 
 @NgModule({
-  declarations: [PixPage],
-  imports: [
-    CommonModule,
-    IonicModule,
-    FormsModule,
-    PixRoutingModule
+    declarations: [PixPage],
+    imports: [
+        CommonModule,
+        IonicModule,
+        FormsModule,
+        PixRoutingModule
 
-  ]
+    ]
 })
 export class PixModule{}

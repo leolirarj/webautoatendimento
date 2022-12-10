@@ -9,12 +9,12 @@ import { OrderStatusPageRoutingModule } from './order-status-routing.module';
 import { OrderStatusPage } from './order-status.page';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    OrderStatusPageRoutingModule
-  ],
-  declarations: [OrderStatusPage]
+    imports: [
+        CommonModule,
+        FormsModule,
+        IonicModule,
+        OrderStatusPageRoutingModule
+    ],
+    declarations: [OrderStatusPage]
 })
 export class OrderStatusPageModule {}

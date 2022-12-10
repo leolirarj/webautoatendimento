@@ -8,12 +8,12 @@ import { ImportVoucherRoutingModule } from './import-voucher-routing.module';
 
 
 @NgModule({
-  declarations: [ImportVoucherPage],
-  imports: [
-    CommonModule,
-    IonicModule,
-    FormsModule,
-    ImportVoucherRoutingModule
-  ]
+    declarations: [ImportVoucherPage],
+    imports: [
+        CommonModule,
+        IonicModule,
+        FormsModule,
+        ImportVoucherRoutingModule
+    ]
 })
 export class ImportVoucherModule { }

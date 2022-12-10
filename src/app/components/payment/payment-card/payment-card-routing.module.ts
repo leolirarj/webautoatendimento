@@ -5,15 +5,15 @@ import { PaymentCardPage } from './payment-card.page';
 
 
 const routes: Routes = [
-  {
-    path: '',
-    component: PaymentCardPage,
-  },
+    {
+        path: '',
+        component: PaymentCardPage,
+    },
 
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+    imports: [RouterModule.forChild(routes)],
+    exports: [RouterModule]
 })
 export class PaymentCardRoutingModule {}

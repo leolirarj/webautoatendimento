@@ -5,15 +5,15 @@ import { ImportVoucherPage } from './import-voucher.page';
 
 
 const routes: Routes = [
-  {
-    path: '',
-    component: ImportVoucherPage,
-  },
+    {
+        path: '',
+        component: ImportVoucherPage,
+    },
 
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+    imports: [RouterModule.forChild(routes)],
+    exports: [RouterModule]
 })
 export class ImportVoucherRoutingModule {}

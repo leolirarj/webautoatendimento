@@ -6,14 +6,14 @@ import { TicketPage } from './ticket.page';
 
 
 const routes: Routes = [
-  {
-    path: '',
-    component: TicketPage,
-  },
+    {
+        path: '',
+        component: TicketPage,
+    },
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+    imports: [RouterModule.forChild(routes)],
+    exports: [RouterModule]
 })
 export class TicketRoutingModule {}

@@ -10,12 +10,12 @@ import { PaymentRoutingModule } from './payment-routing.module';
 
 
 @NgModule({
-  declarations: [PaymentPage],
-  imports: [
-    CommonModule,
-    IonicModule,
-    FormsModule,
-    PaymentRoutingModule
-  ]
+    declarations: [PaymentPage],
+    imports: [
+        CommonModule,
+        IonicModule,
+        FormsModule,
+        PaymentRoutingModule
+    ]
 })
 export class PaymentModule { }

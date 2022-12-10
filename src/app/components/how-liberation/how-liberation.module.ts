@@ -9,12 +9,12 @@ import { HowLiberationPage } from './how-liberation.page';
 
 
 @NgModule({
-  declarations: [HowLiberationPage],
-  imports: [
-    CommonModule,
-    IonicModule,
-    FormsModule,
-    HowLiberationRoutingModule
-  ]
+    declarations: [HowLiberationPage],
+    imports: [
+        CommonModule,
+        IonicModule,
+        FormsModule,
+        HowLiberationRoutingModule
+    ]
 })
 export class HowLiberationModule { }

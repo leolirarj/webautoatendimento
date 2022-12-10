@@ -8,12 +8,12 @@ import { IonicModule } from '@ionic/angular';
 
 
 @NgModule({
-  declarations: [ProcessInformationPage],
-  imports: [
-    CommonModule,
-    IonicModule,
-    FormsModule,
-    ProcessInformationRoutingModule
-  ]
+    declarations: [ProcessInformationPage],
+    imports: [
+        CommonModule,
+        IonicModule,
+        FormsModule,
+        ProcessInformationRoutingModule
+    ]
 })
 export class ProcessInformationModule { }

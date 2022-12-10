@@ -9,12 +9,12 @@ import { SchedulingConfirmedPageRoutingModule } from './scheduling-confirmed-rou
 import { SchedulingConfirmedPage } from './scheduling-confirmed.page';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    SchedulingConfirmedPageRoutingModule
-  ],
-  declarations: [SchedulingConfirmedPage]
+    imports: [
+        CommonModule,
+        FormsModule,
+        IonicModule,
+        SchedulingConfirmedPageRoutingModule
+    ],
+    declarations: [SchedulingConfirmedPage]
 })
 export class SchedulingConfirmedPageModule {}

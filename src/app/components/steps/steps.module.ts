@@ -12,12 +12,12 @@ import { VerificationComponent } from './verification/verification.component';
 
 
 @NgModule({
-  declarations: [StepsPage, AddressComponent, IdentityComponent, VerificationComponent],
-  imports: [
-    CommonModule,
-    IonicModule,
-    FormsModule,
-    StepRoutingModule
-  ]
+    declarations: [StepsPage, AddressComponent, IdentityComponent, VerificationComponent],
+    imports: [
+        CommonModule,
+        IonicModule,
+        FormsModule,
+        StepRoutingModule
+    ]
 })
 export class StepModule { }

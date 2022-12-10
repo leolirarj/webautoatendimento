@@ -8,12 +8,12 @@ import { IonicModule } from '@ionic/angular';
 
 
 @NgModule({
-  declarations: [PublicSearchPage],
-  imports: [
-    CommonModule,
-    IonicModule,
-    FormsModule,
-    PublicSearchRoutingModule
-  ]
+    declarations: [PublicSearchPage],
+    imports: [
+        CommonModule,
+        IonicModule,
+        FormsModule,
+        PublicSearchRoutingModule
+    ]
 })
 export class PublicSearchModule { }

@@ -4,14 +4,14 @@ import { Routes, RouterModule } from '@angular/router';
 import { FacePicturePage } from './face-picture.page';
 
 const routes: Routes = [
-  {
-    path: '',
-    component: FacePicturePage
-  }
+    {
+        path: '',
+        component: FacePicturePage
+    }
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule],
+    imports: [RouterModule.forChild(routes)],
+    exports: [RouterModule],
 })
 export class FacePicturePageRoutingModule {}

@@ -9,12 +9,12 @@ import { DocumentsPageRoutingModule } from './documents-routing.module';
 import { DocumentsPage } from './documents.page';
 
 @NgModule({
-  imports: [
-    CommonModule,
-    FormsModule,
-    IonicModule,
-    DocumentsPageRoutingModule
-  ],
-  declarations: [DocumentsPage]
+    imports: [
+        CommonModule,
+        FormsModule,
+        IonicModule,
+        DocumentsPageRoutingModule
+    ],
+    declarations: [DocumentsPage]
 })
 export class DocumentsPageModule {}

@@ -5,14 +5,14 @@ import { PixPage } from './pix.page';
 
 
 const routes: Routes = [
-  {
-    path: '',
-    component: PixPage,
-  },
+    {
+        path: '',
+        component: PixPage,
+    },
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+    imports: [RouterModule.forChild(routes)],
+    exports: [RouterModule]
 })
 export class PixRoutingModule {}

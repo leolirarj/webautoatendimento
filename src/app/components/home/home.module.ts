@@ -8,14 +8,14 @@ import { HomeRoutingModule } from './home-routing.module';
 
 
 @NgModule({
-  
-  imports: [
-    CommonModule,
-    IonicModule,
-    FormsModule,
-    HomeRoutingModule
-    
-  ],
-  declarations: [HomePage],
+
+    imports: [
+        CommonModule,
+        IonicModule,
+        FormsModule,
+        HomeRoutingModule
+
+    ],
+    declarations: [HomePage],
 })
 export class HomeModule { }

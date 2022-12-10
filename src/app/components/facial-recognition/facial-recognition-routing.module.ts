@@ -4,15 +4,15 @@ import { FacialRecognitionPage } from './facial-recognition.page';
 
 
 const routes: Routes = [
-  {
-    path: '',
-    component: FacialRecognitionPage,
-  },
+    {
+        path: '',
+        component: FacialRecognitionPage,
+    },
 
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule]
+    imports: [RouterModule.forChild(routes)],
+    exports: [RouterModule]
 })
 export class FacialRecognitionRoutingModule {}

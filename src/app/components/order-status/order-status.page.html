@@ -11,9 +11,9 @@
       <ion-row *ngFor="let item of steps">
         <ion-col size="12" class="steps">
           <div class="flex-center"> 
-            <ion-img *ngIf="item.status == 'aprovado'" src="../../../assets/order-status/checkVerde.png"></ion-img>
-            <ion-img *ngIf="item.status == 'analise'" src="../../../assets/order-status/analise.png"></ion-img>
-            <ion-img *ngIf="item.status == 'reprovado'" src="../../../assets/order-status/reprovado.png"></ion-img>
+            <ion-img *ngIf="item.status === 'aprovado'" src="../../../assets/order-status/checkVerde.png"></ion-img>
+            <ion-img *ngIf="item.status === 'analise'" src="../../../assets/order-status/analise.png"></ion-img>
+            <ion-img *ngIf="item.status === 'reprovado'" src="../../../assets/order-status/reprovado.png"></ion-img>
           </div>
           <div class="flex-center margin-left">
             <h2><b>{{item.step}}</b></h2>

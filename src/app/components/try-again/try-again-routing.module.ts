@@ -4,14 +4,14 @@ import { Routes, RouterModule } from '@angular/router';
 import { TryAgainPage } from './try-again.page';
 
 const routes: Routes = [
-  {
-    path: '',
-    component: TryAgainPage
-  }
+    {
+        path: '',
+        component: TryAgainPage
+    }
 ];
 
 @NgModule({
-  imports: [RouterModule.forChild(routes)],
-  exports: [RouterModule],
+    imports: [RouterModule.forChild(routes)],
+    exports: [RouterModule],
 })
 export class TryAgainPageRoutingModule {}
